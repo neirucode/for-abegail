@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let playButton = document.getElementById("play-button");
 
     // Lower volume for a smoother experience
-    audio.volume = 0.5;
+    audio.volume = 0.4;
 
     // Attempt autoplay
     let playPromise = audio.play();
